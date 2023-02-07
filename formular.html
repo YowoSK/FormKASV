@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulár</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="contact" action="" method="post">
+        <h3>KASV - Contact form</h3>
+        <h4>Submit form to apply for membership</h4>
+        <fieldset>
+          <input
+            placeholder="Name"
+            type="text"
+            tabindex="1"
+            required
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <input placeholder="Email" type="email" tabindex="2" required />
+        </fieldset>
+        <fieldset>
+          <input placeholder="Subject" type="list" tabindex="3" required />
+        </fieldset>
+        <fieldset>
+          <textarea
+            placeholder="Your experience Here...."
+            tabindex="4"
+            required
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <input type="range" placeholder="IT experience" /><br />
+          <p>IT experience</p>
+        </fieldset>
+        <button
+          name="submit"
+          type="submit"
+          id="contact-submit"
+          data-submit="...Sending"
+          Submit
+        >
+          submit
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

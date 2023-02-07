@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 20px;
+  color: rgb(131, 119, 119);
+  background: rgb(31, 175, 211);
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact {
+  background: #dddddd;
+  padding: 30px;
+  margin: 50px 0;
+}
+
+#contact h3 {
+  color: rgb(255, 120, 102);
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 15px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 50%;
+  padding: 0;
+  width: 60%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: rgb(204, 200, 200);
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: rgb(13, 188, 231);
+  color: rgb(216, 216, 216);
+  margin: 0 0 5px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+
+
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 30px;
+  font-size: small;
+}
